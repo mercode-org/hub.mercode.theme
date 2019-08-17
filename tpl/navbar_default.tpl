@@ -1,7 +1,7 @@
 
 <div id="banner" class="headliner">
 
-<a href="/"><img src="hub.mercode.png" alt="hub.mercode.org"></a>
+<a href="/"><img src="https://mercode.org/hub.mercode.png" alt="hub.mercode.org"></a>
 
 </div>
 
