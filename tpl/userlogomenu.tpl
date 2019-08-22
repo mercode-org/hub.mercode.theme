@@ -17,7 +17,7 @@
 <ul class="nav nav-pills flex-column">
 
       <li class="nav-item user_details">
-        <a class="nav-link" href="startpage/{{$startpage}}"><i style="font-size: 18px;margin: 0 -3px 0px -3px;" class="fa fa-fw fa-cog"></i> MerHub </a>
+        <a class="nav-link" href="https://hub.mercode.org/"><i style="font-size: 18px;margin: 0 -3px 0px -3px;" class="fa fa-fw fa-cog"></i> MerHub </a>
       </li>
 
       <li class="nav-item user_details">
