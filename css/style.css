@@ -15,7 +15,7 @@ html {
 
 body {
 	font-size: 0.9rem;
-	background-color: $bgcolour;
+	background-color: #212121;
 	background-image: url('$background_image');
 	background-attachment: fixed;
 	background-size: cover;
@@ -111,7 +111,7 @@ abbr {
 
 /* icons */
 
-a {      
+a {
       color: $nav_bg !important;
 }
 
@@ -176,9 +176,9 @@ code {
 }
 
 pre {
-	background: #F5F5F5;
-	color: #333;
-	border:1px solid #ccc;
+	background: #333;
+	color: #F5F5F5;
+	border:1px solid #333;
 	border-radius: $radius;
 }
 
@@ -205,10 +205,10 @@ nav {
 }
 
 .error-message {
-	color: #FF0000;
+	color: #FFEEEE;
 	font-size: 1.1em;
 	border: 1px solid #FF8888;
-	background-color: #FFEEEE;
+	background-color: #FF0000;
 	padding: 10px;
 }
 
@@ -230,7 +230,7 @@ nav {
 	max-height: 50%;
 	background: $comment_item_colour;
 	padding: 1rem;
-	border-bottom: #ccc 1px solid;
+	border-bottom: #333 1px solid;
 	overflow: auto;
 	-moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
 	-webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
@@ -385,7 +385,7 @@ footer {
 	bottom:1px;
 	text-align: right;
 	padding-bottom: 1em;
-	padding-right: 3em; 
+	padding-right: 3em;
 }
 
 .birthday-today,
@@ -418,14 +418,14 @@ footer {
 .fn {
 	font-weight: bold;
 	font-size: 1rem;
-	color: #444444;
+	color: #ffff;
 }
 
 .vcard {
 	margin-bottom: 10px;
 	padding: 0px 10px 10px 10px;
-	background-color: rgba(254,254,254,0.5);
-	border: 1px solid rgba(254,254,254,0.5);
+	background-color: #333);
+	border: 1px solid #333;
 	border-radius: $radius;
 	word-wrap: break-word;
 }
@@ -504,8 +504,8 @@ footer {
 .pager_next,
 .pager-prev,
 .pager-next,
-.pager_n { 
-	border: 1px solid #ccc;
+.pager_n {
+	border: 1px solid #333;
 	background: transparent;
 	padding: 4px;
 }
@@ -620,7 +620,7 @@ footer {
 .wall-item-title.h3 {
     font-weight: 400;
     word-wrap: break-word;
-    
+
 }
 
 #nav-notifications-template,
@@ -764,7 +764,7 @@ nav .acpopup {
 	height: auto; overflow: auto;
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 1em;
-	margin-bottom: 1em;	
+	margin-bottom: 1em;
 }
 .oauthapp img {
 	float: left;
@@ -1058,7 +1058,7 @@ th,td {
 	max-width: 19.4em;
 	overflow: hidden;
 }
-	
+
 /* mail */
 
 img.mail-conv-sender-photo {
@@ -1185,7 +1185,7 @@ img.mail-conv-sender-photo {
 	margin-top: 2em;
 }
 .wall-item-tools {
-	margin-top: -0.45rem;    
+	margin-top: -0.45rem;
 }
 
 .p-2  {
@@ -1238,11 +1238,11 @@ blockquote, .shared_container {
 }
 
 blockquote {
-    background: rgba(168,168,168,.1);    
+    background: rgba(168,168,168,.1);
 }
 
 .shared_container {
-    background: rgba(168,168,168,.1);    
+    background: rgba(168,168,168,.1);
 }
 
 .comment .wall-item-photo {
@@ -1663,7 +1663,7 @@ main.fullscreen .section-content-wrapper-np {
 }
 
 #menu_logo .fa.fa-hubzilla  {
-    font-size:5rem; 
+    font-size:5rem;
     width:100%;
     padding-top:10px;
     padding-left:15px;
@@ -1778,12 +1778,12 @@ img.zrl {
 	margin-top:-3px;
 }
 
-dl.bb-dl > dt { 
+dl.bb-dl > dt {
 	/* overriding the default dl style from bootstrap, as bootstrap's
 	   style of a bold unindented line followed by a plain unindented
 	   line is already acheivable in bbcode without dl */
-	font-weight: normal; 
-} 
+	font-weight: normal;
+}
 dl.dl-terms-monospace > dt { font-family:     monospace; }
 dl.dl-terms-bold      > dt { font-weight:     bold; }
 dl.dl-terms-italic    > dt { font-style:      italic; }
@@ -1794,7 +1794,7 @@ dl.bb-dl:not(.dl-horizontal) > dd {
 	margin-left: 2em;
 }
 dl.bb-dl > dd > li {
-	/* adding some indent so bullet-list items will line up better with 
+	/* adding some indent so bullet-list items will line up better with
 	   dl descriptions if someone wants to be impure and combine them */
 	margin-left: 1em;
 }
@@ -2059,7 +2059,7 @@ img[src*="feedburner"] {
 
 iframe {
     width: 100%;
- 
+
     height: 100%;
 }
 
